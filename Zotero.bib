@@ -1128,13 +1128,14 @@
   __markedentry = {[ebertac:6]},
 }
 
-@article{bernton_inference_2017,
-	title = {Inference in generative models using the {Wasserstein} distance},
-	url = {https://arxiv.org/abs/1701.05146},
-	urldate = {2017-10-10},
-	journal = {arXiv preprint arXiv:1701.05146},
-	author = {Bernton, Espen and Jacob, Pierre E. and Gerber, Mathieu and Robert, Christian P.},
-	year = {2017}
+@Article{bernton_inference_2017,
+  author  = {Bernton, Espen and Jacob, Pierre E. and Gerber, Mathieu and Robert, Christian P.},
+  title   = {Inference in generative models using the {Wasserstein} distance},
+  journal = {arXiv preprint arXiv:1701.05146},
+  year    = {2017},
+  groups  = {Wasserstein},
+  url     = {https://arxiv.org/abs/1701.05146},
+  urldate = {2017-10-10},
 }
 
 @article{bertl_approximate_2015,
@@ -4556,7 +4557,7 @@
   year    = {2007},
   volume  = {19},
   pages   = {513},
-  groups  = {Favourites},
+  groups  = {Favourites, MMD},
   url     = {https://papers.nips.cc/paper/3110-a-kernel-method-for-the-two-sample-problem.pdf},
   urldate = {2017-04-18TZ},
 }
@@ -4569,7 +4570,7 @@
   volume    = {22},
   pages     = {1637},
   publisher = {Menlo Park, CA; Cambridge, MA; London; AAAI Press; MIT Press; 1999},
-  groups    = {Favourites},
+  groups    = {Favourites, MMD},
   url       = {http://www.aaai.org/Papers/AAAI/2007/AAAI07-262.pdf},
   urldate   = {2017-04-18TZ},
 }
@@ -4582,7 +4583,7 @@
   volume  = {13},
   number  = {Mar},
   pages   = {723--773},
-  groups  = {Favourites},
+  groups  = {Favourites, MMD},
 }
 
 @InProceedings{gretton_optimal_2012,
@@ -4591,7 +4592,7 @@
   booktitle = {Advances in neural information processing systems},
   year      = {2012},
   pages     = {1205--1213},
-  groups    = {Favourites},
+  groups    = {Favourites, MMD},
   url       = {http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests},
   urldate   = {2017-04-18TZ},
 }
@@ -6164,6 +6165,16 @@ Conclusions The prediction interval reflects the variation in treatment effects 
 	author = {Kleinschmidt, Tristan and Goonetilleke, Ashantha and Fookes, Clinton B. and Yarlagadda, Prasad KDV},
 	year = {2010},
 	pages = {57--62}
+}
+
+@Article{kneip1992statistical,
+  author    = {Kneip, Alois and Gasser, Theo},
+  title     = {Statistical tools to analyze data representing a sample of curves},
+  journal   = {The Annals of Statistics},
+  year      = {1992},
+  pages     = {1266--1305},
+  groups    = {DTW},
+  publisher = {JSTOR},
 }
 
 @article{ko_response_2004,
@@ -10125,7 +10136,7 @@ DOI: 10.2514/6.2017-1319}
   volume  = {11},
   number  = {Apr},
   pages   = {1517--1561},
-  groups  = {Favourites},
+  groups  = {Favourites, MMD},
   url     = {http://www.jmlr.org/papers/v11/sriperumbudur10a.html},
   urldate = {2017-04-18TZ},
 }
@@ -10136,7 +10147,7 @@ DOI: 10.2514/6.2017-1319}
   booktitle = {{NIPS}},
   year      = {2009},
   pages     = {1750--1758},
-  groups    = {Favourites},
+  groups    = {Favourites, MMD},
   url       = {https://papers.nips.cc/paper/3750-kernel-choice-and-classifiability-for-rkhs-embeddings-of-probability-distributions-supplemental.zip},
   urldate   = {2017-04-18TZ},
 }
@@ -12120,8 +12131,10 @@ DOI: 10.2514/6.2017-1319}
 @Comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
 1 ExplicitGroup:Favourites\;0\;;
-1 ExplicitGroup:Distances\;0\;;
+1 ExplicitGroup:Distances\;2\;;
 2 ExplicitGroup:DTW\;0\;;
+2 ExplicitGroup:Wasserstein\;0\;;
+2 ExplicitGroup:MMD\;0\;;
 }
 
 @Comment{jabref-meta: saveActions:enabled;
