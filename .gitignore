@@ -1,3 +1,4 @@
 *.bak
 *.sav
 /attachment/*
+.Rproj.user
