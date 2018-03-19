@@ -2,3 +2,4 @@
 *.sav
 /attachment/*
 .Rproj.user
+*.Rproj
