@@ -1,1 +1,0 @@
-sed 's/arXiv preprint //g' Zotero.bib > Zotero2.bib
