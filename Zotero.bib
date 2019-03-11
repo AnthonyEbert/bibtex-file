@@ -2196,6 +2196,7 @@
   number  = {5},
   pages   = {899--924},
   file    = {:cappe_overview_2007 - An overview of existing methods and recent advances in sequential Monte Carlo.pdf:PDF},
+  groups  = {SMC},
   url     = {http://ieeexplore.ieee.org/abstract/document/4266870/},
   urldate = {2017-02-05TZ},
 }
@@ -2735,7 +2736,7 @@
   number  = {3},
   pages   = {539--552},
   file    = {:chopin_sequential_2002 - A sequential particle filter method for static models.pdf:PDF},
-  groups  = {StateSpaceModels},
+  groups  = {StateSpaceModels, SMC},
   url     = {http://biomet.oxfordjournals.org/content/89/3/539.abstract},
   urldate = {2017-02-05TZ},
 }
@@ -3457,22 +3458,24 @@
 	year = {2010}
 }
 
-@article{del_moral_sequential_2006,
-	title = {Sequential {Monte} {Carlo} samplers},
-	volume = {68},
-	issn = {1467-9868},
-	url = {http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9868.2006.00553.x/abstract},
-	doi = {10.1111/j.1467-9868.2006.00553.x},
-	abstract = {Summary.  We propose a methodology to sample sequentially from a sequence of probability distributions that are defined on a common space, each distribution being known up to a normalizing constant. These probability distributions are approximated by a cloud of weighted random samples which are propagated over time by using sequential Monte Carlo methods. This methodology allows us to derive simple algorithms to make parallel Markov chain Monte Carlo algorithms interact to perform global optimization and sequential Bayesian estimation and to compute ratios of normalizing constants. We illustrate these algorithms for various integration tasks arising in the context of Bayesian inference.},
-	language = {en},
-	number = {3},
-	urldate = {2017-02-05TZ},
-	journal = {Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
-	author = {Del Moral, Pierre and Doucet, Arnaud and Jasra, Ajay},
-	month = jun,
-	year = {2006},
-	keywords = {Importance sampling, Markov chain Monte Carlo methods, Ratio of normalizing constants, Resampling, Sequential Monte Carlo methods, Simulated annealing},
-	pages = {411--436}
+@Article{del_moral_sequential_2006,
+  author   = {Del Moral, Pierre and Doucet, Arnaud and Jasra, Ajay},
+  title    = {Sequential {Monte} {Carlo} samplers},
+  journal  = {Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
+  year     = {2006},
+  volume   = {68},
+  number   = {3},
+  pages    = {411--436},
+  month    = jun,
+  issn     = {1467-9868},
+  abstract = {Summary.  We propose a methodology to sample sequentially from a sequence of probability distributions that are defined on a common space, each distribution being known up to a normalizing constant. These probability distributions are approximated by a cloud of weighted random samples which are propagated over time by using sequential Monte Carlo methods. This methodology allows us to derive simple algorithms to make parallel Markov chain Monte Carlo algorithms interact to perform global optimization and sequential Bayesian estimation and to compute ratios of normalizing constants. We illustrate these algorithms for various integration tasks arising in the context of Bayesian inference.},
+  doi      = {10.1111/j.1467-9868.2006.00553.x},
+  file     = {:del_moral_sequential_2006 - Sequential Monte Carlo samplers.pdf:PDF},
+  groups   = {SMC},
+  keywords = {Importance sampling, Markov chain Monte Carlo methods, Ratio of normalizing constants, Resampling, Sequential Monte Carlo methods, Simulated annealing},
+  language = {en},
+  url      = {http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9868.2006.00553.x/abstract},
+  urldate  = {2017-02-05TZ},
 }
 
 @article{delaglio_nmrpipe:_1995,
@@ -3810,7 +3813,7 @@
   number  = {1},
   pages   = {225--233},
   file    = {drovandi_estimation_2011 - Estimation of parameters for macroparasite population evolution using approximate Bayesian computation.pdf:drovandi_estimation_2011 - Estimation of parameters for macroparasite population evolution using approximate Bayesian computation.pdf:PDF},
-  groups  = {ABC},
+  groups  = {ABC, SMCABC},
   url     = {http://onlinelibrary.wiley.com/doi/10.1111/j.1541-0420.2010.01410.x/full},
   urldate = {2017-02-12TZ},
 }
@@ -4731,6 +4734,19 @@
 	pages = {123--136}
 }
 
+@Article{gelfand1990sampling,
+  author    = {Gelfand, Alan E and Smith, Adrian FM},
+  title     = {Sampling-based approaches to calculating marginal densities},
+  journal   = {Journal of the American statistical association},
+  year      = {1990},
+  volume    = {85},
+  number    = {410},
+  pages     = {398--409},
+  file      = {:gelfand1990sampling - Sampling-based approaches to calculating marginal densities.pdf:PDF},
+  groups    = {MCMC},
+  publisher = {Taylor \& Francis Group},
+}
+
 @article{gelhausen_airport_2013,
 	title = {Do airport capacity constraints have a serious impact on the future development of air traffic?},
 	volume = {28},
@@ -5368,7 +5384,7 @@
 
 @Article{haario2001adaptive,
   author    = {Haario, Heikki and Saksman, Eero and Tamminen, Johanna and others},
-  title     = {An adaptive Metropolis algorithm},
+  title     = {An adaptive {M}etropolis algorithm},
   journal   = {Bernoulli},
   year      = {2001},
   volume    = {7},
@@ -6807,19 +6823,9 @@ Conclusions The prediction interval reflects the variation in treatment effects 
 	pages = {1--7}
 }
 
-@article{kierzkowski_simulation_2016,
-	title = {Simulation model of security control system functioning: {A} case study of the {Wroclaw} {Airport} terminal},
-	shorttitle = {Simulation model of security control system functioning},
-	url = {http://www.sciencedirect.com/science/article/pii/S0969699716303854},
-	urldate = {2017-04-30TZ},
-	journal = {Journal of Air Transport Management},
-	author = {Kierzkowski, Artur and Kisiel, Tomasz},
-	year = {2016}
-}
-
 @Article{kierzkowski2017simulation,
   author    = {Kierzkowski, Artur and Kisiel, Tomasz},
-  title     = {Simulation model of security control system functioning: A case study of the Wroclaw Airport terminal},
+  title     = {Simulation model of security control system functioning: A case study of the {W}rocław Airport terminal},
   journal   = {Journal of Air Transport Management},
   year      = {2017},
   volume    = {64},
@@ -7916,13 +7922,15 @@ Conclusions The prediction interval reflects the variation in treatment effects 
 	pages = {4373--4397}
 }
 
-@book{liu_monte_2008,
-	title = {Monte {Carlo} strategies in scientific computing},
-	url = {https://books.google.com.au/books?hl=en&lr=&id=R8E-yHaKCGUC&oi=fnd&pg=PR7&dq=monte+carlo+strategies+in+scientific+computing&ots=WduZzPw59E&sig=yuHT8JzU2RFJ68YAjKQpCRcLPOw},
-	urldate = {2017-02-14TZ},
-	publisher = {Springer Science \& Business Media},
-	author = {Liu, Jun S.},
-	year = {2008}
+@Book{liu_monte_2008,
+  title     = {Monte {Carlo} strategies in scientific computing},
+  publisher = {Springer Science \& Business Media},
+  year      = {2008},
+  author    = {Liu, Jun S.},
+  file      = {:liu_monte_2008 - Monte Carlo strategies in scientific computing.pdf:PDF},
+  groups    = {Textbooks, Likelihood-based Bayesian, SMC, MCMC},
+  url       = {https://books.google.com.au/books?hl=en&lr=&id=R8E-yHaKCGUC&oi=fnd&pg=PR7&dq=monte+carlo+strategies+in+scientific+computing&ots=WduZzPw59E&sig=yuHT8JzU2RFJ68YAjKQpCRcLPOw},
+  urldate   = {2017-02-14TZ},
 }
 
 @inproceedings{liu_predictability_2013,
@@ -8344,18 +8352,19 @@ Conclusions The prediction interval reflects the variation in treatment effects 
 	pages = {853}
 }
 
-@article{marjoram_markov_2003,
-	title = {Markov {Chain} {Monte} {Carlo} without {Likelihoods}},
-	volume = {100},
-	issn = {0027-8424},
-	url = {http://www.jstor.org.ezp01.library.qut.edu.au/stable/3149004},
-	abstract = {Many stochastic simulation approaches for generating observations from a posterior distribution depend on knowing a likelihood function. However, for many complex probability models, such likelihoods are either impossible or computationally prohibitive to obtain. Here we present a Markov chain Monte Carlo method for generating observations from a posterior distribution without the use of likelihoods. It can also be used in frequentist applications, in particular for maximum-likelihood estimation. The approach is illustrated by an example of ancestral inference in population genetics. A number of open problems are highlighted in the discussion.},
-	number = {26},
-	urldate = {2017-02-05TZ},
-	journal = {Proceedings of the National Academy of Sciences of the United States of America},
-	author = {Marjoram, Paul and Molitor, John and Plagnol, Vincent and Tavaré, Simon},
-	year = {2003},
-	pages = {15324--15328}
+@Article{marjoram_markov_2003,
+  author  = {Marjoram, Paul and Molitor, John and Plagnol, Vincent and Tavaré, Simon},
+  title   = {Markov chain {Monte} {Carlo} without likelihoods},
+  journal = {Proceedings of the National Academy of Sciences of the United States of America},
+  year    = {2003},
+  volume  = {100},
+  number  = {26},
+  pages   = {15324--15328},
+  issn    = {0027-8424},
+  file    = {:marjoram_markov_2003 - Markov chain Monte Carlo without likelihoods.pdf:PDF},
+  groups  = {ABC, MCMCABC},
+  url     = {http://www.jstor.org.ezp01.library.qut.edu.au/stable/3149004},
+  urldate = {2017-02-05TZ},
 }
 
 @book{marketline_airline_2014,
@@ -10509,6 +10518,17 @@ November was a prolific month for R developers: 189 new packages landed in CRAN.
 	pages = {452--475}
 }
 
+@Article{robert2011short,
+  author    = {Robert, Christian and Casella, George},
+  title     = {A short history of {M}arkov chain {M}onte {C}arlo: subjective recollections from incomplete data},
+  journal   = {Statistical Science},
+  year      = {2011},
+  pages     = {102--115},
+  file      = {:robert2011short - A short history of Markov chain Monte Carlo_ Subjective recollections from incomplete data.pdf:PDF},
+  groups    = {MCMC},
+  publisher = {JSTOR},
+}
+
 @article{robinson_discrete-event_2014,
 	title = {Discrete-event simulation: {A} primer},
 	journal = {Discrete-Event Simulation and System Dynamics for Management Decision Making},
@@ -11375,7 +11395,7 @@ DOI: 10.2514/6.2017-1319}
   issn     = {0027-8424},
   abstract = {Recent new methods in Bayesian simulation have provided ways of evaluating posterior distributions in the presence of analytically or computationally intractable likelihood functions. Despite representing a substantial methodological advance, existing methods based on rejection sampling or Markov chain Monte Carlo can be highly inefficient and accordingly require far more iterations than may be practical to implement. Here we propose a sequential Monte Carlo sampler that convincingly overcomes these inefficiencies. We demonstrate its implementation through an epidemiological study of the transmission rate of tuberculosis.},
   file     = {:sisson_sequential_2007 - Sequential Monte Carlo without Likelihoods.pdf:PDF},
-  groups   = {ABC},
+  groups   = {ABC, SMCABC},
   url      = {http://www.jstor.org.ezp01.library.qut.edu.au/stable/25426369},
   urldate  = {2017-02-05TZ},
 }
@@ -13152,16 +13172,18 @@ DOI: 10.2514/6.2017-1319}
 	pages = {1371--1379}
 }
 
-@article{wilkinson_approximate_2013,
-	title = {Approximate {Bayesian} computation ({ABC}) gives exact results under the assumption of model error},
-	volume = {12},
-	url = {https://www.degruyter.com/view/j/sagmb.ahead-of-print/sagmb-2013-0010/sagmb-2013-0010.xml},
-	number = {2},
-	urldate = {2017-02-05TZ},
-	journal = {Statistical applications in genetics and molecular biology},
-	author = {Wilkinson, Richard David},
-	year = {2013},
-	pages = {129--141}
+@Article{wilkinson_approximate_2013,
+  author  = {Wilkinson, Richard David},
+  title   = {Approximate {Bayesian} computation ({ABC}) gives exact results under the assumption of model error},
+  journal = {Statistical applications in genetics and molecular biology},
+  year    = {2013},
+  volume  = {12},
+  number  = {2},
+  pages   = {129--141},
+  file    = {:wilkinson_approximate_2013 - Approximate Bayesian computation (ABC) gives exact results under the assumption of model error.pdf:PDF},
+  groups  = {ABC, MCMCABC},
+  url     = {https://www.degruyter.com/view/j/sagmb.ahead-of-print/sagmb-2013-0010/sagmb-2013-0010.xml},
+  urldate = {2017-02-05TZ},
 }
 
 @Misc{william1953sampling,
@@ -13946,6 +13968,8 @@ DOI: 10.2514/6.2017-1319}
 2 ExplicitGroup:SABC\;0\;;
 2 ExplicitGroup:abc-theory\;2\;;
 2 ExplicitGroup:distances\;2\;;
+2 ExplicitGroup:SMCABC\;2\;;
+2 ExplicitGroup:MCMCABC\;2\;;
 1 ExplicitGroup:Queueing\;2\;;
 2 ExplicitGroup:DQN\;0\;;
 2 ExplicitGroup:Applications\;0\;;
